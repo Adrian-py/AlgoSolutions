@@ -16,14 +16,22 @@ public class Main {
         System.out.format("Before:\t");
         print_array(input_array);
         
-        // Change this section to run specific algorithms
+        long start_time = System.currentTimeMillis();
+        
+        // Sorting Algorithms
         // Sort MergeSort = new MergeSort();
         // MergeSort.sort(input_array);
-
-        Sort QuickSort = new QuickSort();
-        QuickSort.sort(input_array);
         
+        // Sort QuickSort = new QuickSort();
+        // QuickSort.sort(input_array);
+
+        // Sort InsertionSort = new InsertionSort();
+        // InsertionSort.sort(input_array);
+
         System.out.format("After:\t");
         print_array(input_array);
+
+        long end_time = System.currentTimeMillis();
+        System.out.format("Elapsed Time: %d\n", end_time - start_time);
     }
 }
