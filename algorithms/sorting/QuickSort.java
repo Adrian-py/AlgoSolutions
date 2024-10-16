@@ -1,3 +1,5 @@
+package sorting;
+
 public class QuickSort implements Sort {
     public void sort(int[] arr) {
         this.quick_sort(arr, 0, arr.length - 1);

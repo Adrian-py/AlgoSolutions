@@ -1,3 +1,5 @@
+package sorting;
+
 public class MergeSort implements Sort {
     public MergeSort() {}
     

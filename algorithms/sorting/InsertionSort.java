@@ -1,3 +1,5 @@
+package sorting;
+
 public class InsertionSort implements Sort {
     public void sort(int[] arr) {
         this.insertion_sort(arr);
